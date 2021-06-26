@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demoApplication:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demoApplication</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demoApplication-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demoApplication:war exploded" />
+    </root>
+  </artifact>
+</component>
